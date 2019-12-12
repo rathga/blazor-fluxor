@@ -37,7 +37,7 @@ namespace Blazor.Fluxor
 					{
 						try
 						{
-							success = await JSRuntime.InvokeAsync<bool>("tryInitializeFluxor");
+							success = await JSRuntime.InvokeAsync<bool>("TryInitializeFluxor");
 							if (success)
 								break;
 						}
