@@ -158,7 +158,7 @@ namespace Blazor.Fluxor
 
 				string script = scriptBuilder.ToString();
 				renderer.OpenElement(1, "script");
-				renderer.AddAttribute(2, "id", "initializeFluxor");
+				renderer.AddAttribute(2, "id", "InitializeFluxor");
 				renderer.AddMarkupContent(3, script);
 				renderer.CloseElement();
 			};
